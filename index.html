@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ven's Blog</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <!-- <link href="fontawesome-free-5.15.4-web/css/all.css"rel="stylesheet"type="text/css"></link> -->
+    <script
+      src="https://kit.fontawesome.com/f90068558c.js"
+      crossorigin="anonymous"
+    ></script>
+</head>
+<body>
+    <header>
+        <div class="main-header">
+            <img class="logo" src="assets/header-icon.png" alt="logo">
+            <nav>
+            <a href="index.html">Home</a>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section id="jumbotron">
+            <div class="jumbotron">
+                <h1 class="jumbotron-title">Welcome to my small blog!</h1>
+                <div class="header-flex">
+                    <div>
+                        <h2 class="jumbotron-text">Hi,my name is ven.<br>
+                            I am a student at SMKTI Bali Global Denpasar.<br><span style="color: #f4a261;">This</span> is my personal blog.  </h2>
+                      <div class="mini-text-flex">
+                        <p class="mini-text">Check out my work!<br></p>
+                        <button id="icon-up" onclick="changeText()" class="icon-up">
+                            <!-- <i class="far fa-hand-point-up"></i> -->
+                            <i class="fas fa-thumbs-up"></i>
+                        </button>
+                        <button id="icon-down" class="icon-down"> 
+                            <i class="far fa-hand-point-down"></i>
+                        </button>
+                      </div>
+                    </div>
+
+                    <div>
+                        <img onmouseover="changeImage(this)" onmouseout="changeImageBack(this)"  class="jumbotron-img" src="assets/img1.png" alt="Jumbotron image" width="600" height="300">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="main-content">
+            <div class="content">
+                <article id="my-project">
+                    <h3 class="article-title">My Project</h3>
+                    <div class="project-container">
+                    <div class="project">
+                    <img src="assets/Screenshot (29).png" alt="" width="300px" height="210px">
+                    <h4 class="project-title">Javascript Math</h4>
+                    <p class="project-description">Game Javascript Math menggunakan platorm Scratch</p>
+                        </div>
+                        <div class="project">
+                        <img src="assets/Screenshot (31).png" alt="" width="300px" height="210px">
+                        <h4 class="project-title">Bird Hunt</h4>
+                        <p class="project-description">Game Bird Hunt menggunakan platform Phaser</p>
+                    </div>
+                    </div>
+                    </article>
+                        </div>
+
+                        <div class="content-youtube">
+                             <h3 class="article-title">What is Coding?</h3>
+            <article id="video">
+                <div class="item-video">
+                 
+                    <div class="video-item">
+                  <iframe width="560" height="315" src="https://www.youtube.com/embed/hb7Q33ysCwI?si=YOHukE6_irJRjPwE" title="YouTube video player" 
+                  frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen width="500px" height="350px"></iframe>
+                       </div>
+
+                       <div class="content-youtube">
+                  <h3 class="article-title">Coding is Not 
+                    Difficult!</h3>
+                    <div class="video-item">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/N7ZmPYaXoic?si=y944AqDqzXYJLhmg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen width="500px" height="350px" class="video"></iframe>
+                  </div>
+                  </div>
+                  </div>
+               </article>
+                  </div>
+          
+
+               <div class="content-maps">
+               <article id="maps" >
+                  <div class="maps">
+                    <h3 class="article-title">Location</h3>
+                    <div class="location">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3944.04897499537!2d115.2303537218111!3d-8.686892859206493!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd240fe7b1501d9%3A0xe4e679b2f8edaca4!2sJl.%20Tukad%20Batanghari%20XI%20A%20No.26%2C%20Panjer%2C%20Denpasar%20Selatan%2C%20Kota%20Denpasar%2C%20Bali%2080225!5e0!3m2!1sid!2sid!4v1710570713906!5m2!1sid!2sid"
+                     width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="video"></iframe>
+                  </div>
+                </div>
+                </article>
+            </div>
+
+        </div>
+    </main>
+    <footer>
+        <div class="main-footer">
+            <h3 class="info-top">Contact Me!</h3>
+            <div class="social-media">
+              <a href="https://www.instagram.com/vven4lyfe/" target="_blank"> <i class="fab fa-instagram-square"></i></a>
+               <a href="mailto:vedantasidhikrama@gmail.com"><i class="fas fa-envelope"></i></a>
+            </div>
+            <p class="info-center">Copyright &copy; 2025. @vven4lyfe. All rights reserved.</p>
+         </div>
+    </footer>
+</body>
+<script src="script.js"></script>
+
+
+
+
+</html>
